@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bass.css">
+</head>
+
+<style>
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?fcm3fx');
+        src: url('../fonts/icomoon.eot?fcm3fx#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?fcm3fx') format('truetype'),
+            url('../fonts/icomoon.woff?fcm3fx') format('woff'),
+            url('../fonts/icomoon.svg?fcm3fx#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+
+    li {
+        list-style: none
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* css3盒子模型 */
+        box-sizing: border-box;
+    }
+
+    .down {
+        align-items: center;
+        position: relative;
+        width: 1263px;
+        height: 850px;
+        background: linear-gradient(#ff1800 0%, #bc3224 70%);
+        display: flex;
+    }
+
+    .middle {
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        margin-top: 150px;
+        background-color: #fff;
+        /* background: linear-gradient(#984137, #ff1800); */
+        border-radius: 25px;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, .2);
+        transition: all 0.3s;
+    }
+
+    .up {
+        margin-left: 175px;
+        position: absolute;
+        /* background-color: aqua; */
+        border-radius: 10px;
+        top: 20px;
+        left: 160px;
+    }
+
+    .up h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .up img {
+        /* margin-left: 50px; */
+        border-radius: 20px;
+    }
+
+    .up img:hover {
+        transition: all 0.5s;
+        transform: scale(0.9);
+    }
+
+    .characters {
+        width: 1199.8px;
+        position: absolute;
+        /* text-align: center; */
+        top: 450px;
+        font-size: 20px;
+        /* color: #fff; */
+    }
+
+    button {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        background-color: #ff1800;
+        border-radius: 20px;
+        font-size: 22px;
+        margin-left: 525px;
+        top: 600px;
+        border: none;
+    }
+
+    .middle button:hover {
+        transform: translateY(-3px);
+    }
+
+    .k ul li {
+        /* display: block; */
+        float: left;
+        margin-top: 540px;
+        text-align: center;
+        font-family: 'icomoon';
+        content: "";
+        font-size: 24px;
+        margin-left: 15px;
+        color: black;
+    }
+
+    #c {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="down">
+        <div class="middle">
+            <div class="up">
+                <img src="../images/Others/1.jpg" alt="" width="600px" height="350px">
+                <h3>蒙奇•D•路飞</h3>
+            </div>
+            <div class="characters">
+                <p> &nbsp; &nbsp;&nbsp; &nbsp;
+                    蒙奇·D·路飞，绰号“草帽”路飞，是草帽一伙船长，草帽大船团大船长，四皇、极恶的世代之一。橡胶果实（人人果实·幻兽种·尼卡形态）能力者，悬赏金30亿贝里。梦想是找到传说中的大秘宝（ONE
+                    PIECE），成为海贼王。</p>
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;路飞性格积极乐观，爱憎分明，宁死不屈，十分重视伙伴与朋友，对任何冒险相关的事物都超感兴趣。和其他传统的海贼所不同的是，他并不会为了追求财富而杀戮，而是享受着身为海贼的冒险和自由。</p>
+            </div>
+            <button>Learn More</button>
+            <div class="k">
+                <ul>
+                    <li><a href="#" style="margin-left: 517px;" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

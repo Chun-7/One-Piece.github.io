@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bass.css">
+</head>
+
+<style>
+    body {
+        /* display: flex; */
+        background: url(../海贼王/images/bg.jpg)no-repeat;
+        background-size: cover;
+    }
+
+    .box {
+        position: relative;
+        width: 300px;
+        height: 270px;
+        margin: 120px auto;
+        border-top: 1px solid rgba(255, 255, 255, .5);
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        border-left: 1px solid rgba(255, 255, 255, .5);
+        border-right: 1px solid rgba(255, 255, 255, .2);
+        /* 让盒子遮住的部分模糊 */
+        backdrop-filter: blur(10px);
+    }
+
+    .box h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .account,
+    .passworld {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .account input,
+    .passworld input {
+        height: 26px;
+        margin-left: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding-left: 3px;
+        background: rgba(255, 255, 255, .3);
+    }
+
+    .account label,
+    .passworld label {
+        font-size: 14px;
+    }
+
+    .forget a {
+        position: absolute;
+        right: 50px;
+        margin-top: 10px;
+    }
+
+    .forget #one {
+        margin-left: 90px;
+        text-align: center;
+        margin-top: 35px;
+        width: 72px;
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 3px;
+    }
+
+    .forget #two {
+        text-align: center;
+        margin-top: 35px;
+        width: 80px;
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 3px;
+    }
+
+    .forget button:hover {
+        transform: translateY(-3px);
+    }
+</style>
+
+<body>
+    <div class="box">
+
+        <h1><strong>Login</strong></h1>
+
+        <div class="account">
+            <label for="account"><strong>账号:</strong></label>
+            <input type="text" value="请输入账号" class="o">
+        </div>
+
+        <div class="passworld">
+            <label for="passworld"><strong>密码:</strong></label>
+            <input type="text" value="请输入密码" class="t">
+        </div>
+
+        <div class="forget">
+            <a href="#">忘记密码？</a>
+            <div>
+                <button id="one">登录</button>
+                <button id="two">注册</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var inputo = document.querySelector('.box').querySelector('.o');
+        inputo.onfocus = function () {
+            if (inputo.value === '请输入账号') {
+                inputo.value = '';
+            }
+
+        }
+
+        inputo.onblur = function () {
+            if (inputo.value === '') {
+                inputo.value = '请输入账号';
+            }
+        }
+
+        var inputt = document.querySelector('.box').querySelector('.t');
+        inputt.onfocus = function () {
+            if (inputt.value === '请输入密码') {
+                inputt.value = '';
+            }
+
+        }
+
+        inputt.onblur = function () {
+            if (inputt.value === '') {
+                inputt.value = '请输入密码';
+            }
+        }
+    </script>
+</body>
+
+</html>

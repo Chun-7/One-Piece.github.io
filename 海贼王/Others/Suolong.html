@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bass.css">
+</head>
+
+<style>
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?fcm3fx');
+        src: url('../fonts/icomoon.eot?fcm3fx#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?fcm3fx') format('truetype'),
+            url('../fonts/icomoon.woff?fcm3fx') format('woff'),
+            url('../fonts/icomoon.svg?fcm3fx#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+
+    li {
+        list-style: none
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* css3盒子模型 */
+        box-sizing: border-box;
+    }
+
+    .down {
+        align-items: center;
+        position: relative;
+        width: 1263px;
+        height: 850px;
+        background: linear-gradient(#01fc13 0%, #80b746 70%);
+        display: flex;
+    }
+
+    .middle {
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        margin-top: 150px;
+        background-color: #fff;
+        /* background: linear-gradient(#984137, #ff1800); */
+        border-radius: 25px;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, .2);
+        transition: all 0.3s;
+    }
+
+    .up {
+        margin-left: 175px;
+        position: absolute;
+        /* background-color: aqua; */
+        border-radius: 10px;
+        top: 20px;
+        left: 160px;
+    }
+
+    .up h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .up img {
+        border-radius: 20px;
+    }
+
+    .up img:hover {
+        transition: all 0.5s;
+        transform: scale(0.9);
+    }
+
+    .characters {
+        width: 1199.8px;
+        position: absolute;
+        /* text-align: center; */
+        top: 450px;
+        font-size: 20px;
+        /* color: #fff; */
+    }
+
+    button {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        background-color: #01fc13;
+        border-radius: 20px;
+        font-size: 22px;
+        margin-left: 525px;
+        top: 610px;
+        border: none;
+    }
+
+    .middle button:hover {
+        transform: translateY(-3px);
+    }
+
+    .k ul li {
+        display: block;
+        float: left;
+        margin-top: 540px;
+        text-align: center;
+        font-family: 'icomoon';
+        content: "";
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    #c {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="down">
+        <div class="middle">
+            <div class="up">
+                <img src="../images/Others/2.jpg" alt="" width="600px" height="350px">
+                <h3>罗罗诺亚•索隆</h3>
+            </div>
+            <div class="characters">
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;罗罗诺亚·索隆，“草帽一伙”的战斗员，人称剑豪“海贼猎人”。2年前登陆香波地群岛的11位“超新星”其中的一位。同时也是被人称作“极恶的世代”中的一位。
+                </p>
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;东海霜月村出身，是一名三刀流剑士。立志成为世界第一大剑豪。受路飞邀请加入“草帽一伙” ，随着“草帽一伙”以成为世界第一大剑豪的目标航行。</p>
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;加入“草帽一伙”后，索隆时刻尊重着路飞的决定，面对敌人会冲锋在前。虽然身份已经变为了海贼，却仍然坚守着剑士的原则，并经常在团队迷茫的时候分析局势，切中要点，引导团队的决定。</p>
+            </div>
+            <button>Learn More</button>
+            <div class="k">
+                <ul>
+                    <li><a href="#" style="margin-left: 517px;" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

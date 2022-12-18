@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?fcm3fx');
+    src: url('../fonts/icomoon.eot?fcm3fx#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?fcm3fx') format('truetype'),
+        url('../fonts/icomoon.woff?fcm3fx') format('woff'),
+        url('../fonts/icomoon.svg?fcm3fx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.fr span {
+    font-family: 'icomoon';
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* top栏样式  start */
+/* 公共样式部分 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 左浮动类名 */
+.fl {
+    float: left;
+}
+
+/* 右浮动类名 */
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+/* 快捷导肮样式 */
+.top {
+    height: 31px;
+    /* 文字垂直居中 */
+    line-height: 31px;
+    background-color: #E8EFF5;
+}
+
+.top button {
+    margin-right: 20px;
+    font-family: 'icomoon';
+    content: "\e9d6";
+    font-size: 16px;
+}
+
+.top ul li {
+    float: left;
+}
+
+/* 选择所有偶数的 li */
+.top .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+/* 小三角图标制作 */
+.arrow-icon::after {
+    font-family: 'icomoon';
+    content: "\e91e";
+    margin-left: 6px;
+}
+
+
+
+
+
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 190px;
+}
+
+.mod_help dl:last-child() {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_help dl a {
+    line-height: 21px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.link {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 25px;
+}
+
+/* footer 模块 */
+.footer {
+    position: relative;
+    float: left;
+    width: 1263px;
+    height: 150px;
+    background-color: rgb(95, 93, 93);
+}
+
+.footer .l {
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 250px;
+    height: 30px;
+}
+
+.l .box {
+    float: left;
+    width: 40px;
+    height: 30px;
+}
+
+.l h3 {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: "华文彩云";
+}
+
+.footer .insert {
+    float: left;
+    position: absolute;
+    top: 110px;
+    left: 440px;
+    width: 120px;
+    height: 30px;
+}
+
+.insert span {
+    float: left;
+    font-family: 'icomoon';
+    content: "\ea03";
+    font-size: 18px;
+}
+
+.insert h4 {
+    float: left;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 10px;
+    height: 30px;
+    color: black;
+}
+
+.footer .m {
+    position: absolute;
+    width: 370px;
+    height: 30px;
+    left: 570px;
+    top: 110px;
+}
+
+.m h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.footer .r {
+    position: absolute;
+    left: 950px;
+    width: 250px;
+    height: 30px;
+    top: 105px;
+}
+
+.r ul li {
+    float: left;
+    font-family: 'icomoon';
+    content: "";
+    font-size: 24px;
+    margin-left: 15px;
+}

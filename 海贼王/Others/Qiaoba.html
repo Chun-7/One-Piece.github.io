@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bass.css">
+</head>
+
+<style>
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?fcm3fx');
+        src: url('../fonts/icomoon.eot?fcm3fx#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?fcm3fx') format('truetype'),
+            url('../fonts/icomoon.woff?fcm3fx') format('woff'),
+            url('../fonts/icomoon.svg?fcm3fx#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+
+    li {
+        list-style: none
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* css3盒子模型 */
+        box-sizing: border-box;
+    }
+
+    .down {
+        align-items: center;
+        position: relative;
+        width: 1263px;
+        height: 850px;
+        background: linear-gradient(#f61ad4 0%, #dc19f9 70%);
+        display: flex;
+    }
+
+    .middle {
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        margin-top: 150px;
+        background-color: #fff;
+        /* background: linear-gradient(#984137, #ff1800); */
+        border-radius: 25px;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, .2);
+        transition: all 0.3s;
+    }
+
+    .up {
+        margin-left: 175px;
+        position: absolute;
+        /* background-color: aqua; */
+        border-radius: 10px;
+        top: 20px;
+        left: 160px;
+    }
+
+    .up h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .up img {
+        border-radius: 20px;
+    }
+
+    .up img:hover {
+        transition: all 0.5s;
+        transform: scale(0.9);
+    }
+
+    .characters {
+        width: 1199.8px;
+        position: absolute;
+        /* text-align: center; */
+        top: 450px;
+        font-size: 20px;
+        /* color: #fff; */
+    }
+
+    button {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        background-color: #f61ad4;
+        border-radius: 20px;
+        font-size: 22px;
+        margin-left: 525px;
+        top: 600px;
+        border: none;
+    }
+
+    .middle button:hover {
+        transform: translateY(-3px);
+    }
+
+    .k ul li {
+        display: block;
+        float: left;
+        margin-top: 540px;
+        text-align: center;
+        font-family: 'icomoon';
+        content: "";
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    #c {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="down">
+        <div class="middle">
+            <div class="up">
+                <img src="../images/Others/6.jpg" alt="" width="600px" height="350px">
+                <h3>托尼托尼•乔巴</h3>
+            </div>
+            <div class="characters">
+                <p>&nbsp; &nbsp;&nbsp; &nbsp;托尼托尼·乔巴，乔巴是草帽一伙的船医，吃了人人果实的驯鹿，可用蓝波球进行八段变形。</p>
+                <p>&nbsp; &nbsp;&nbsp; &nbsp;他是草帽一伙的第六位成员，职业是船医。原为磁鼓岛Dr.库蕾哈医生最宠爱的驯鹿兼医疗助手
+                    。乔巴的恩人是“庸医”希鲁鲁克，他身为野生驯鹿时本来没有名字，“乔巴”也是由希鲁鲁克给他命名的，意思是他有一对连树木都可以轻松砍倒的角。</p>
+            </div>
+            <button>Learn More</button>
+            <div class="k">
+                <ul>
+                    <li><a href="#" style="margin-left: 517px;" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

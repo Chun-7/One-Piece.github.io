@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bass.css">
+</head>
+
+<style>
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?fcm3fx');
+        src: url('../fonts/icomoon.eot?fcm3fx#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?fcm3fx') format('truetype'),
+            url('../fonts/icomoon.woff?fcm3fx') format('woff'),
+            url('../fonts/icomoon.svg?fcm3fx#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+
+    li {
+        list-style: none
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* css3盒子模型 */
+        box-sizing: border-box;
+    }
+
+    .down {
+        align-items: center;
+        position: relative;
+        width: 1263px;
+        height: 850px;
+        background: linear-gradient(#434bf7 0%, #4611a5 70%);
+        display: flex;
+    }
+
+    .middle {
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        margin-top: 150px;
+        background-color: #fff;
+        /* background: linear-gradient(#984137, #ff1800); */
+        border-radius: 25px;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, .2);
+        transition: all 0.3s;
+    }
+
+    .up {
+        margin-left: 175px;
+        position: absolute;
+        /* background-color: aqua; */
+        border-radius: 10px;
+        top: 20px;
+        left: 160px;
+    }
+
+    .up h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .up img {
+        border-radius: 20px;
+    }
+
+    .up img:hover {
+        transition: all 0.5s;
+        transform: scale(0.9);
+    }
+
+    .characters {
+        width: 1199.8px;
+        position: absolute;
+        /* text-align: center; */
+        top: 450px;
+        font-size: 20px;
+        /* color: #fff; */
+    }
+
+    button {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        background-color: #434bf7;
+        border-radius: 20px;
+        font-size: 22px;
+        margin-left: 525px;
+        top: 600px;
+        border: none;
+    }
+
+    .middle button:hover {
+        transform: translateY(-3px);
+    }
+
+    .k ul li {
+        display: block;
+        float: left;
+        margin-top: 540px;
+        text-align: center;
+        font-family: 'icomoon';
+        content: "";
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    #c {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="down">
+        <div class="middle">
+            <div class="up">
+                <img src="../images/Others/10.jpg" alt="" width="600px" height="350px">
+                <h3>吉贝尔•甚平</h3>
+            </div>
+            <div class="characters">
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;甚平，为人行侠仗义，人称“海侠”，悬赏金11亿贝里。原为“王下七武海”，在费舍尔·泰格死后成为太阳海贼团的船长，后在蛋糕岛宣布加入草帽一伙成为舵手。
+                </p>
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;拥有恐怖的怪力，擅长“鱼人空手道”和“鱼人柔术”，在海中可发挥最大力量。认为最终称霸大海的不会是当今四皇中的某一位，而是“草帽路飞”。</p>
+            </div>
+            <button>Learn More</button>
+            <div class="k">
+                <ul>
+                    <li><a href="#" style="margin-left: 517px;" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

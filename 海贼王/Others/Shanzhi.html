@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bass.css">
+</head>
+
+<style>
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?fcm3fx');
+        src: url('../fonts/icomoon.eot?fcm3fx#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?fcm3fx') format('truetype'),
+            url('../fonts/icomoon.woff?fcm3fx') format('woff'),
+            url('../fonts/icomoon.svg?fcm3fx#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+
+    li {
+        list-style: none
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        /* css3盒子模型 */
+        box-sizing: border-box;
+    }
+
+    .down {
+        align-items: center;
+        position: relative;
+        width: 1263px;
+        height: 850px;
+        background: linear-gradient(#f1f408 0%, #edd00d 70%);
+        display: flex;
+    }
+
+    .middle {
+        width: 95%;
+        height: 600px;
+        margin: auto;
+        margin-top: 150px;
+        background-color: #fff;
+        /* background: linear-gradient(#984137, #ff1800); */
+        border-radius: 25px;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, .2);
+        transition: all 0.3s;
+    }
+
+    .up {
+        margin-left: 175px;
+        position: absolute;
+        /* background-color: aqua; */
+        border-radius: 10px;
+        top: 20px;
+        left: 160px;
+    }
+
+    .up h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .characters {
+        width: 1199.8px;
+        position: absolute;
+        /* text-align: center; */
+        top: 450px;
+        font-size: 20px;
+        /* color: #fff; */
+    }
+
+    .up img {
+        border-radius: 20px;
+    }
+
+    .up img:hover {
+        transition: all 0.5s;
+        transform: scale(0.9);
+    }
+
+    button {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        background-color: #edd00d;
+        border-radius: 20px;
+        font-size: 22px;
+        margin-left: 525px;
+        top: 600px;
+        border: none;
+    }
+
+    .middle button:hover {
+        transform: translateY(-3px);
+    }
+
+    .k ul li {
+        display: block;
+        float: left;
+        margin-top: 540px;
+        text-align: center;
+        font-family: 'icomoon';
+        content: "";
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    #c {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="down">
+        <div class="middle">
+            <div class="up">
+                <img src="../images/Others/3.jpg" alt="" width="600px" height="350px">
+                <h3>山治</h3>
+            </div>
+            <div class="characters">
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;山治，草帽一伙厨师，草帽大船团大干部之一，外号“黑足”，草帽一伙怪物三人组之一，与罗罗诺亚·索隆并称为蒙奇·D·路飞的左膀右臂，是一个足技高手。悬赏金为10亿3200万贝里。</p>
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;文斯莫克家族的第三子，基因改造人，由于小时候未能觉醒能力而被生父放逐到东海。遇见恩师哲普后在海上餐厅巴拉蒂担任厨师。为了寻找传说之海ALL BLUE而随草帽一伙踏入伟大航线。</p>
+                <p>&nbsp; &nbsp;&nbsp;
+                    &nbsp;性格温柔善良，遵从“骑士道精神”，热爱女性。遇到事情总能冷静的分析思考，并做出正确有利的判断，时常扮演奇兵的角色，为伙伴解难，让人出其不意。</p>
+            </div>
+            <button>Learn More</button>
+            <div class="k">
+                <ul>
+                    <li><a href="#" style="margin-left: 517px;" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                    <li><a href="#" id="c"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
